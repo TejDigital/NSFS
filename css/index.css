@@ -1,0 +1,421 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* -------------------------------Home-top--------------------- */
+.home_top {
+    position: relative;
+}
+
+.home_top .box {
+    position: relative;
+}
+
+.home_top .box .img {
+    width: 100%;
+    max-height: 630px;
+    height: 100%;
+    position: relative;
+}
+
+.home_top .img img {
+    /* position: absolute; */
+    width: 100%;
+    height: 100%;
+    max-height: 630px;
+
+}
+
+.home_top .box .text {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.home_top .box .text h2 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 57px;
+}
+
+
+/* -----------------------------About-home-------------------- */
+.home_about {
+    position: relative;
+    /* background-color: #221B1B; */
+    background: #221B1B1A;
+    padding: 4rem 0;
+
+}
+
+.home_about .text_area {
+    position: relative;
+}
+
+.home_about .text_area .top_text {
+    text-align: left;
+    /* border-right: 1px solid #000000; */
+    border-bottom: 1px solid #000000;
+}
+
+.home_about .text_area .top_text h1 {
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 57px;
+}
+
+.home_about .text_area .top_text p {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 18px;
+}
+
+.home_about .more_btn {
+    /* border-right: 1px solid #000000; */
+
+    padding: 1rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    /* flex-direction: column; */
+}
+
+.home_about .more_btn i {
+    background-color: #07B100;
+    color: #000000;
+    font-weight: 600;
+    font-size: 1.4em;
+    border-radius: 50%;
+    margin-right: 1rem;
+    padding: 0.5rem;
+}
+
+.home_about .right_img {
+    border-left: 1px solid #000000;
+
+    padding: 1rem;
+    width: 100%;
+    height: 100%;
+}
+
+.home_about .right_img img {
+    padding: 1rem;
+    width: 100%;
+    height: 100%;
+}
+
+/* ---------------------------------home_changer_btns------------------- */
+.home_changer_btns {
+    position: relative;
+    padding: 2rem 0;
+}
+
+.home_changer_btns .top_btns {
+    position: relative;
+    width: 100%;
+}
+
+.home_changer_btns .top_btns .btns {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home_changer_btns .top_btns .btns .button_area {
+    width: 30%;
+}
+
+.home_changer_btns .top_btns .btns .button_area span {
+    font-size: 0.9rem;
+    line-height: 14px;
+}
+
+.home_changer_btns .top_btns .btns .button_area p {
+    padding: 0.2rem 1rem;
+    border: 1px solid #07B100;
+}
+
+.home_changer_btns .change_slides {
+    position: relative;
+}
+
+.home_changer_btns .change_slides .slide_1 {
+    position: relative;
+}
+
+.home_changer_btns .change_slides .slide_1 .left_img {
+    position: relative;
+    padding: 1rem;
+    width: 100%;
+    height: 100%;
+}
+
+.home_changer_btns .change_slides .slide_1 .left_img img {
+    position: relative;
+    /* padding: 1rem; */
+    width: 100%;
+    height: 100%;
+}
+
+.home_changer_btns .change_slides .slide_1 .text_area {
+    border-bottom: 1px solid #000000;
+}
+
+.home_changer_btns .change_slides .slide_1 .text_area .top_text h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 57px;
+}
+
+.home_changer_btns .change_slides .slide_1 .text_area .top_text p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.home_changer_btns .change_slides .slide_1 .more_btn {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 1rem;
+}
+
+.home_changer_btns .change_slides .slide_1 .more_btn i {
+    background-color: #07B100;
+    color: #000000;
+    font-weight: 600;
+    font-size: 1.4em;
+    border-radius: 50%;
+    margin-right: 1rem;
+    padding: 0.5rem;
+}
+
+.home_changer_btns .change_slides .slide_1 .more_btn span {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 15px;
+}
+
+/* -----------------------------Home-Testimonial------------------------- */
+.testimonial_home {
+    position: relative;
+    background-image: url(../images/test_home_bg_1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 8rem 4rem;
+}
+
+.testimonial_home .box {
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    color: #fff;
+    flex-direction: column;
+}
+
+.testimonial_home .box i {
+    font-size: 3rem;
+    color: transparent;
+    -webkit-text-stroke: 1px #ffff;
+}
+
+.testimonial_home .box span {
+    font-size: 3rem;
+    color: transparent;
+    -webkit-text-stroke: 1px #ffff;
+}
+
+.testimonial_home .box p {
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.testimonial_home .box .profile {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 100%;
+}
+
+.testimonial_home .box .profile .img {
+    max-width: 80px;
+    width: 100%;
+    margin-right: 1rem;
+    height: 100%;
+}
+
+.testimonial_home .box .profile .img img {
+    /* max-width: 90px; */
+    width: 100%;
+    height: 100%;
+}
+
+.testimonial_home .box .profile .text span {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.testimonial_home .box .profile .text p {
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+/* ------------------------------------home_services------------------------- */
+.home_services {
+    position: relative;
+    background-color: #221B1B1A;
+    padding: 3rem 0;
+}
+
+.home_services .box {
+    padding: 0.4rem;
+}
+
+.home_services .box .head {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.home_services .box .head i {
+    margin-right: 0.7rem;
+}
+
+.home_services .box .des p {
+    margin-top: 0.7rem;
+    text-align: justify;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+/* ------------------------------mission_vision----------------------------- */
+.mission_vision {
+    position: relative;
+    padding: 2rem 0;
+}
+
+.mission_vision .text {
+    position: relative;
+    padding: 1rem;
+}
+
+.mission_vision .text h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: .01%;
+
+}
+
+.mission_vision .text p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: justify;
+
+}
+
+.mission_vision .img {
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+}
+
+.mission_vision .img img {
+    width: 100%;
+    height: 100%;
+}
+
+.mission_vision .mission {
+    margin-bottom: 2rem;
+}
+
+.mission_vision .vision {
+    margin-top: 2rem;
+}
+
+.mission_vision .mission .border_1 {
+    border-left: 1px solid #000000;
+}
+
+.mission_vision .vision .border_1 {
+    border-right: 1px solid #000000;
+}
+
+
+
+
+.mission_vision .after_m_v {
+    position: relative;
+    margin-top: 2rem;
+}
+
+.after_m_v .text h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 57px;
+}
+
+.after_m_v .des h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+.after_m_v .des p {
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+/* ----------------------------------------what_done--------------------------------- */
+.what_done {
+    position: relative;
+    padding: 5rem 3rem;
+    background-color: #07B100;
+}
+
+.what_done .box {
+    margin: 2rem 0;
+    position: relative;
+    padding: 0.8rem;
+    border-left: 1px solid #fff;
+    color: #fff;
+}
+
+.what_done .box p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.what_done .box span {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+
+.end_text h1{
+    padding: 3rem 0;
+font-size: 2.5rem;
+font-weight: 700;
+line-height: 50px;
+text-align: center;
+}
