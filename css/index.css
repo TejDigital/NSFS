@@ -131,6 +131,16 @@
 
 .home_changer_btns .top_btns .btns .button_area {
     width: 30%;
+    cursor: pointer;
+}
+
+.home_changer_btns .top_btns .btns .button_area:hover.button_area p {
+
+    background-color: #07B100;
+}
+
+.home_changer_btns .top_btns .btns .button_area:hover.button_area span {
+    font-weight: 500;
 }
 
 .home_changer_btns .top_btns .btns .button_area span {
@@ -400,22 +410,22 @@
 }
 
 .what_done .box p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 400;
     line-height: 28px;
 }
 
 .what_done .box span {
-    font-size: 2rem;
+    font-size: 2.3rem;
     font-weight: 600;
     line-height: 30px;
 }
 
 
-.end_text h1{
+.end_text h1 {
     padding: 3rem 0;
-font-size: 2.5rem;
-font-weight: 700;
-line-height: 50px;
-text-align: center;
+    font-size: 2.1rem;
+    font-weight: 600;
+    line-height: 50px;
+    text-align: center;
 }

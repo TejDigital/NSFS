@@ -105,7 +105,8 @@
     <div class="container-fluid p-0">
         <div class="box">
 
-            <i class="fa-solid fa-quote-left"></i>
+            <!-- <i class="fa-solid fa-quote-left"></i> -->
+            <img src="images/“.svg" alt="" class="py-4">
             <!-- <span>'</span> -->
 
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur omnis nemo nobis, vel, molestiae delectus obcaecati sit tempore quas fugiat, est ex illo atque aspernatur dolorem libero? Exercitationem corrupti repellendus quam dicta! Neque quaerat in perferendis pariatur dolorum tempora laborum.</p>

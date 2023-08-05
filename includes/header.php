@@ -13,6 +13,9 @@
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/services.css">
+    <link rel="stylesheet" href="./css/track_order.css">
+    <link rel="stylesheet" href="./css/contact.css">
 </head>
 
 <body>
@@ -67,10 +70,13 @@
                                 <a class="nav-link" href="./about.php">About us</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#services">Services</a>
+                                <a class="nav-link" href="./services.php">Services</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#gallery">Track Order</a>
+                                <a class="nav-link" href="./contact.php">Contact Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./track_order.php">Track Order</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#contact">Member Login</a>

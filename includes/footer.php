@@ -6,30 +6,30 @@
                     <img src="./images/logo_1.svg" alt="">
                 </div>
             </div>
-            <div class="col-md-3 links">
+            <div class="col-md-3 nav_links">
                <ul>
                 <li><h4>Quick Links</h4></li>
-                <li><a href="#!">Home</a></li>
-                <li><a href="#!">About Us</a></li>
-                <li><a href="#!">Service</a></li>
-                <li><a href="#!">Track Order</a></li>
-                <li><a href="#!">Member Login </a></li>
+                <li><a class="links" href="#!">Home</a></li>
+                <li><a class="links"  href="#!">About Us</a></li>
+                <li><a class="links"  href="#!">Service</a></li>
+                <li><a class="links"  href="#!">Track Order</a></li>
+                <li><a class="links"  href="#!">Member Login </a></li>
                </ul>
             </div>
             <div class="col-md-3 services">
                 <ul>
                     <li><h4>Our Services</h4></li>
-                    <li><a href="#!">Railway Freight</a></li>
-                    <li><a href="#!">Road Freight</a></li>
-                    <li><a href="#!">Full Truckload</a></li>
+                    <li><a class="links"  href="#!">Railway Freight</a></li>
+                    <li><a class="links"  href="#!">Road Freight</a></li>
+                    <li><a class="links"  href="#!">Full Truckload</a></li>
                 </ul>
             </div>
             <div class="col-md-3 Contact">
             <ul>
                 <li><h4>Contact us</h4></li>
-                <li><a href="#!">Find us here</a></li>
-                <li><a href="#!">Get in touch</a></li>
-                <li><a href="#!">FAQs</a></li>
+                <li><a class="links"  href="#!">Find us here</a></li>
+                <li><a class="links"  href="#!">Get in touch</a></li>
+                <li><a class="links"  href="#!">FAQs</a></li>
             </ul>
             </div>
         </div>
