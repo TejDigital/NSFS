@@ -25,12 +25,14 @@
                         <h1>Empowering Businesses with Seamless Logistics Solutions for Success.</h1>
                         <p>At North Super Fast Service, we offer a comprehensive range of logistics solutions tailored to meet your transportation needs. From efficient railway and road freight services to full truckload solutions, we ensure timely and secure deliveries, supported by our decades of expertise and commitment to excellence. Our services are designed to empower businesses by providing hassle-free, reliable, and cost-effective logistics solutions that drive success in today's dynamic market.</p>
                     </div>
-                    <div class="click_btn">
-                        <i class="fa-solid fa-plus"></i>
+                    <a href="about.php" style="text-decoration: none; color:#1E1E1E;">
+                        <div class="click_btn">
+                            <i class="fa-solid fa-plus"></i>
 
-                        <p>View more <br>
-                            about us</p>
-                    </div>
+                            <p>View more <br>
+                                about us</p>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -39,7 +41,7 @@
 <section class="services_3">
     <div class="container">
         <div class="row py-5">
-            <div class="col-md-6 border-right p-0">
+            <div class="col-md-6 border-right p-0" id="railway">
                 <div class="img_area">
                     <div class="img_head">
                         <img src="images/about_timeline.png" alt="">
@@ -121,12 +123,15 @@
                     <h1>Fast & secure courier for all your packages</h1>
                     <p>Experience fast and reliable logistic services for seamless transportation solutions.</p>
                 </div>
-                <div class="click_btn">
-                    <i class="fa-solid fa-plus"></i>
+             
+                <a href="about.php" style="text-decoration: none; color:#1E1E1E;">
+                        <div class="click_btn">
+                            <i class="fa-solid fa-plus"></i>
 
-                    <p>View more <br>
-                        about us</p>
-                </div>
+                            <p>View more <br>
+                                about us</p>
+                        </div>
+                    </a>
             </div>
             <div class="col-md-6 border_right p-0 ">
                 <div class="img">

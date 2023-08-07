@@ -9,32 +9,32 @@
             <div class="col-md-3 nav_links">
                <ul>
                 <li><h4>Quick Links</h4></li>
-                <li><a class="links" href="#!">Home</a></li>
-                <li><a class="links"  href="#!">About Us</a></li>
-                <li><a class="links"  href="#!">Service</a></li>
-                <li><a class="links"  href="#!">Track Order</a></li>
+                <li><a class="links" href="./index.php">Home</a></li>
+                <li><a class="links"  href="./about.php">About Us</a></li>
+                <li><a class="links"  href="./services.php">Service</a></li>
+                <li><a class="links"  href="./track_order.php">Track Order</a></li>
                 <li><a class="links"  href="#!">Member Login </a></li>
                </ul>
             </div>
             <div class="col-md-3 services">
                 <ul>
                     <li><h4>Our Services</h4></li>
-                    <li><a class="links"  href="#!">Railway Freight</a></li>
-                    <li><a class="links"  href="#!">Road Freight</a></li>
-                    <li><a class="links"  href="#!">Full Truckload</a></li>
+                    <li><a class="links"  href="./services.php/#railway">Railway Freight</a></li>
+                    <li><a class="links"  href="./services.php">Road Freight</a></li>
+                    <li><a class="links"  href="./services.php">Full Truckload</a></li>
                 </ul>
             </div>
             <div class="col-md-3 Contact">
             <ul>
                 <li><h4>Contact us</h4></li>
-                <li><a class="links"  href="#!">Find us here</a></li>
-                <li><a class="links"  href="#!">Get in touch</a></li>
-                <li><a class="links"  href="#!">FAQs</a></li>
+                <li><a class="links"  href="./contact.php">Find us here</a></li>
+                <li><a class="links"  href="./contact.php">Get in touch</a></li>
+                <li><a class="links"  href="./contact.php">FAQs</a></li>
             </ul>
             </div>
         </div>
         <div class="row social">
-            <div class="col-md-6 d-flex align-items-center justify-content-left">
+            <div class="col-md-6 flex_col ">
                 <div class="social_icons">
                     <a href="#!">
 
@@ -50,7 +50,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-md-6  d-flex align-items-center justify-content-end">
+            <div class="col-md-6 flex_col_text">
                 <span>
                 Terms of Service  |  Privacy Policy
                 </span>

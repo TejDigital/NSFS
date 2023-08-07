@@ -18,13 +18,15 @@
                     <h1>About Us</h1>
                     <p>North Superfast Service Ltd. is a pioneering logistics company with over 59 years of experience in delivering exceptional transportation solutions. Since our inception in 1979, we have been committed to providing efficient, reliable, and cost-effective services to businesses across India. With a strong focus on customer satisfaction and safety, our dedicated team ensures seamless deliveries, making us a trusted logistics partner for clients nationwide. As an innovative and customer-centric organization, we continuously strive to exceed expectations and build lasting relationships, fueling our growth and success in the dynamic world of logistics.</p>
                 </div>
-                <div class="btns">
+                <a href="services.php" style="text-decoration: none; color:#1E1E1E;">
+              <div class="btns">
                     <i class="fa-solid fa-plus"></i>
                     <p>
                         View more <br>
                         about our services
                     </p>
                 </div>
+              </a>
             </div>
             <div class="col-md-6  d-flex align-items-center justify-content-center">
                 <div class="img">

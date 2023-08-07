@@ -22,40 +22,11 @@
 
     <header class="header">
         <div class="header-inner">
-            <!-- <nav class="top_nav" id="top_nav">
-                <div class="container-fluid">
-                    <div class="row d-flex align-items-center justify-content-between">
-                        <div class="col-md-12 d-flex align-items-center justify-content-between flex-wrap">
-                            <div class="address d-flex align-items-center justify-content-between flex-wrap">
-                                <div class="div top_nav_item px-2">
-                                    <p class="m-0 view_display"><a href="tel:9876543210 "> <span class="pe-1"> <i class="fa-solid fa-phone-volume"></i></span>+91 98765 43210 </a></p>
-                                    <p class="m-0 none_display"><a href="tel:9876543210 "> <span class="pe-1"> <i class="fa-solid fa-phone-volume"></i></span></a></p>
-                                </div>
-                                <div class="div top_nav_item px-2">
-                                    <p class="m-0 view_display"> <a href="mailto:info.theemanager@gmail.com "> <span class="pe-1"> <i class="fa-regular fa-envelope"></i></span> info.theemanager@gmail.com </a></p>
-                                    <p class="m-0 none_display"> <a href="mailto:info.theemanager@gmail.com "> <span class="pe-1"> <i class="fa-regular fa-envelope"></i></span> </a></p>
-                                </div>
-                            </div>
-                            <div class="top_nav_social d-flex align-items-center justify-content-evenly gap-4">
-                               <a href="#"> <i class="fa-brands fa-facebook"></i></a>
-                               <a href="#">  <i class="fa-brands fa-instagram"></i></a>
-                               <a href="#">  <i class="fa-brands fa-twitter"></i></a>
-                            </div>
-                        </div>
-                        <div class="col-md-4 d-flex align-items-center justify-content-end">
-                            <div class="top_nav_social d-flex align-items-center justify-content-evenly gap-3">
-                               <a href="#"> <i class="fa-brands fa-facebook"></i></a>
-                               <a href="#">  <i class="fa-brands fa-instagram"></i></a>
-                               <a href="#">  <i class="fa-brands fa-twitter"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </nav> -->
             <div class="container-fluid px-lg-5">
                 <nav class="navbar navbar-expand-lg my-navbar">
                     <a class="navbar-brand" href="index.php">
-                        <img src="images/Logo_1.svg" class="img-fluid">
+                        <img src="images/Logo_1.svg" class="img-fluid logo_1">
+                        <img src="images/logo_dark.png" class="img-fluid logo_2">
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"><i class="fas fa-bars" style="margin:5px 0px 0px 0px;"></i></span>
@@ -83,13 +54,26 @@
                             </li>
                         </ul>
                         <div class="form-inline header_menus_bar my-2 my-lg-0">
-                        <i class="fa-solid fa-bars"></i>
+                            <button id="open_slider" onclick="openslide()">
+                                <i class="fa-solid fa-bars"></i>
+                            </button>
                         </div>
                     </div>
                 </nav>
 
             </div>
+            <section class="slide_nav" id="slide_nav">
+                <div class="slide_area">
+                    <div class="container">
+                        <button id="close_btn" onclick="closeslide()">X</button>
+                        <div class="head">
+                            <h1>contact</h1>
+                            <p>hyudsbdbsj</p>
+                            <p>sxsxsmo</p>
+                            <a href="salkxmskxsm">axskjnsjknkan</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
     </header>
- 
- 

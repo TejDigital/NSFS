@@ -22,7 +22,9 @@
                 <div class="col-md-4">
                     <form action="#">
                         <div class="form-group">
-                            <select name="" id="" class="form-control">
+                            <select name="" id="" class="form-cont">
+                                <option value="" >Search By</option>
+                                <option value="" >Search By</option>
                                 <option value="" >Search By</option>
                             </select>
                         </div>

@@ -16,6 +16,7 @@
 .TRACK_home .img img {
     max-height: 630px;
     width: 100%;
+    min-height: 300px;
     height: 100%;
 }
 
@@ -78,7 +79,13 @@
 .track_main form .form-control{ 
   padding: 1rem;
   border: 1px solid #000000;
-  border-radius: 0;
+  border-radius: 1px;
+}
+.track_main form .form-cont{ 
+  padding: 1rem;
+  border: 1px solid #000000;
+  border-radius: 1px;
+  width: 100%;
 }
 .track_main form .form-control::placeholder{ 
   color: #000000;
@@ -93,13 +100,14 @@
     border: none;
     background-color: #07B100;
     color: #fff;
+    font-weight: 600;
     text-align: center;
     padding: 0.8rem 1rem;
-    border: 1px solid transparent;
+    border: 2px solid transparent;
     transition: all .5s;
 }
 .track_main form .form-group button:hover{ 
-   border: 1px solid #07B100;
+   border: 2px solid #07B100;
    background-color: transparent;
    color: #07B100;
 }
