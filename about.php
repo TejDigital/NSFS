@@ -163,25 +163,25 @@
         <div class="col-md-3">
             <div class="box">
                 <p>Packages Delivered</p>
-                <span>7255</span>
+                <span class="count_num" data-val="7255">0000</span>
             </div>
         </div>
         <div class="col-md-3">
             <div class="box">
                 <p>Monthly KM Covered</p>
-                <span>7255</span>
+                <span class="count_num" data-val="8348">0000</span>
             </div>
         </div>
         <div class="col-md-3">
             <div class="box">
                 <p>Tons of Goods Transported</p>
-                <span>7255</span>
+                <span class="count_num" data-val="8500">0000</span>
             </div>
         </div>
         <div class="col-md-3">
             <div class="box">
                 <p>Satisfied Clientele</p>
-                <span>7255</span>
+                <span class="count_num" data-val="5000">0000</span>
             </div>
         </div>
     </div>

@@ -22,7 +22,7 @@
             <div class="col-md-6 p-0">
                 <div class="text_area">
                     <div class="header">
-                        <h1>Empowering Businesses with Seamless Logistics Solutions for Success.</h1>
+                        <h1 data-aos="fade-down" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="1500">Empowering Businesses with Seamless Logistics Solutions for Success.</h1>
                         <p>At North Super Fast Service, we offer a comprehensive range of logistics solutions tailored to meet your transportation needs. From efficient railway and road freight services to full truckload solutions, we ensure timely and secure deliveries, supported by our decades of expertise and commitment to excellence. Our services are designed to empower businesses by providing hassle-free, reliable, and cost-effective logistics solutions that drive success in today's dynamic market.</p>
                     </div>
                     <a href="about.php" style="text-decoration: none; color:#1E1E1E;">
@@ -47,7 +47,7 @@
                         <img src="images/about_timeline.png" alt="">
                         <h1>Railway Freight</h1>
                     </div>
-                    <div class="img">
+                    <div class="img" data-aos="fade-up-right" data-aos-duration="1000">
                         <img src="images/mission_bg_1.png" alt="">
                     </div>
                 </div>
@@ -68,7 +68,7 @@
                         <img src="images/about_timeline.png" alt="">
                         <h1>Road Freight</h1>
                     </div>
-                    <div class="img">
+                    <div class="img" data-aos="fade-up-right" data-aos-duration="1000">
                         <img src="images/mission_bg_1.png" alt="">
                     </div>
                 </div>
@@ -89,7 +89,7 @@
                         <img src="images/about_timeline.png" alt="">
                         <h1>Full Truckload Services (FTL)</h1>
                     </div>
-                    <div class="img">
+                    <div class="img" data-aos="fade-up-right" data-aos-duration="1000">
                         <img src="images/mission_bg_1.png" alt="">
                     </div>
                 </div>
@@ -123,15 +123,15 @@
                     <h1>Fast & secure courier for all your packages</h1>
                     <p>Experience fast and reliable logistic services for seamless transportation solutions.</p>
                 </div>
-             
-                <a href="about.php" style="text-decoration: none; color:#1E1E1E;">
-                        <div class="click_btn">
-                            <i class="fa-solid fa-plus"></i>
 
-                            <p>View more <br>
-                                about us</p>
-                        </div>
-                    </a>
+                <a href="about.php" style="text-decoration: none; color:#1E1E1E;">
+                    <div class="click_btn">
+                        <i class="fa-solid fa-plus"></i>
+
+                        <p>View more <br>
+                            about us</p>
+                    </div>
+                </a>
             </div>
             <div class="col-md-6 border_right p-0 ">
                 <div class="img">

@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="./css/services.css">
     <link rel="stylesheet" href="./css/track_order.css">
     <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/slide_bar.css">
 </head>
 
 <body>
@@ -43,8 +44,19 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="./services.php">Services</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item menu-item">
                                 <a class="nav-link" href="./contact.php">Contact Us</a>
+                                <ul class="drop-menu">
+                                    <li class="drop-menu-item">
+                                        <a class="drop_link" href="./contact.php">Contact Us</a>
+                                    </li>
+                                    <li class="drop-menu-item">
+                                        <a class="drop_link" href="./our_network.php">Our Network</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item display_hidden">
+                                <a class="nav-link" href="./our_network.php">Our Network</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="./track_order.php">Track Order</a>
@@ -54,26 +66,23 @@
                             </li>
                         </ul>
                         <div class="form-inline header_menus_bar my-2 my-lg-0">
+                            <div class="header-hamburger">
+                                <button type="button" class="hamburger-btn offcanvas-open-btn">
+                                    <!-- <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span> -->
+                                    <i class="fa-solid fa-bars"></i>
+
+                                </button>
+                                <!-- </div>
                             <button id="open_slider" onclick="openslide()">
-                                <i class="fa-solid fa-bars"></i>
-                            </button>
+                            </button> -->
+                            </div>
                         </div>
-                    </div>
                 </nav>
 
             </div>
-            <section class="slide_nav" id="slide_nav">
-                <div class="slide_area">
-                    <div class="container">
-                        <button id="close_btn" onclick="closeslide()">X</button>
-                        <div class="head">
-                            <h1>contact</h1>
-                            <p>hyudsbdbsj</p>
-                            <p>sxsxsmo</p>
-                            <a href="salkxmskxsm">axskjnsjknkan</a>
-                        </div>
-                    </div>
-                </div>
-            </section>
+
         </div>
     </header>

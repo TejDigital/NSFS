@@ -77,12 +77,20 @@
     justify-content: left;
     padding: 1rem 0;
 }
-
+.about_about .btns:hover.btns i{
+    background-color: transparent;
+    border: 1px solid #07B100;
+    color: #07B100;
+}
+.about_about .btns:hover.btns p{
+   font-weight: 700;
+}
 .about_about .btns i {
     background-color: #07B100;
     color: #000000;
     font-weight: 600;
     font-size: 1.4em;
+    border: 1px solid transparent;
     border-radius: 50%;
     margin-right: 1rem;
     padding: 0.5rem;

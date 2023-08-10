@@ -78,7 +78,7 @@
                                     <span>Write to us</span>
                                     <div class="mail">
                                         <p><a href="#!">info@nsfs.co.in</a></p>
-                                        <p><a href="#!">,nsfs.durg@gmail.com</a></p>
+                                        <p><a href="#!">nsfs.durg@gmail.com</a></p>
                                     </div>
                                 </div>
                             </div>

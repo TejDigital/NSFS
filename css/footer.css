@@ -88,6 +88,10 @@ footer .social .social_icons a i{
     font-size: 1.6rem;
     color: transparent;
     -webkit-text-stroke: 1px #07B100;
+    transition: 0.5s;
+}
+footer .social .social_icons a i:hover{
+    color: #07B100;
 }
 footer .social span{
    font-size: 1rem;

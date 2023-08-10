@@ -2,9 +2,64 @@
 
 <section class="home_top">
     <div class="box">
-        <div class="img">
-            <img src="images/home_bg_1.png" alt="">
+        <!-- <div class="home_slider_area text-center owl-carousel owl-theme">
+            <div class="img">
+                <img src="images/home_bg_1.png" alt="">
+            </div>
+            <div class="img">
+                <img src="images/home_bg_2.png" alt="">
+            </div>
+            <div class="img">
+                <img src="images/mission_bg_1.png" alt="">
+            </div>
+            <div class="img">
+                <img src="images/vision_bg_1.png" alt="">
+            </div>
+        </div> -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-pause="true">
+            <div class="carousel-indicators">
+                <div class="slide_text">
+                    <p>Railway Freight</p>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
+                        <span></span>
+                    </button>
+                </div>
+                <div class="slide_text">
+                    <p>Road Freight</p>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2">
+                        <span></span>
+                    </button>
+                </div>
+
+                <div class="slide_text">
+                    <p>Full Truckload Services</p>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3">
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/home_bg_1.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/home_bg_2.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/mission_bg_1.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+                <span class="" style="font-size: 4rem;"><i class="fa-solid fa-angle-left"></i></span>
+            </button>
+            <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+                <span class="" style="font-size: 4rem;"><i class="fa-solid fa-angle-right"></i></span>
+            </button>
         </div>
+
+
         <div class="text">
             <div class="container">
                 <div class="home_dis">
@@ -34,14 +89,14 @@
                     </div>
                 </div>
                 <a href="services.php" style="text-decoration: none; color:#1E1E1E;">
-                            <div class="more_btn">
-                                <i class="fa-solid fa-plus"></i>
-                                <div class="text">
-                                    <span>View more <br>
-                                        about our services</span>
-                                </div>
-                            </div>
-                        </a>
+                    <div class="more_btn">
+                        <i class="fa-solid fa-plus"></i>
+                        <div class="text">
+                            <span>View more <br>
+                                about our services</span>
+                        </div>
+                    </div>
+                </a>
             </div>
             <div class="col-md-6 d-flex align-items-center justify-content-center p-0">
                 <div class="right_img">
@@ -55,25 +110,25 @@
     <div class="container">
         <div class="top_btns">
             <div class="btns">
-                <div class="button_area">
+                <div class="button_area click_btn_services active-links" onclick="ontablink(event,'box1')">
                     <span>Railway Freight</span>
                     <p></p>
                 </div>
-                <div class="button_area">
-                    <span>Railway Freight</span>
+                <div class="button_area click_btn_services" onclick="ontablink(event,'box2')">
+                    <span>Road Freight</span>
                     <p></p>
                 </div>
-                <div class="button_area">
-                    <span>Railway Freight</span>
+                <div class="button_area click_btn_services" onclick="ontablink(event, 'box3')">
+                    <span>Full Truckload Services</span>
                     <p></p>
                 </div>
             </div>
         </div>
         <div class="change_slides">
-            <div class="slide_1">
+            <div class="slide_1 service_box active-tab" id="box1">
                 <div class="row">
                     <div class="col-md-6 d-flex align-items-center justify-content-center p-0">
-                        <div class="left_img">
+                        <div class="left_img" data-aos="flip-left" data-aos-duration="1500" ata-aos-easing="ease-out-cubic"  >
                             <img class="" src="images/home_bg_1.png" alt="">
                         </div>
                     </div>
@@ -97,7 +152,58 @@
                     </div>
                 </div>
             </div>
-
+            <div class="slide_1 service_box " id="box2">
+                <div class="row">
+                    <div class="col-md-6 d-flex align-items-center justify-content-center p-0">
+                        <div class="left_img" data-aos="flip-left"  data-aos-duration="2000" ata-aos-easing="ease-out-cubic"  >
+                            <img class="" src="images/home_bg_1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6 p-0">
+                        <div class="text_area">
+                            <div class="top_text">
+                                <h1>Efficient and reliable road transportation services.</h1>
+                                <p>Seamless and flexible road transport solutions for your goods.</p>
+                            </div>
+                        </div>
+                        <a href="services.php" style="text-decoration: none; color:#1E1E1E;">
+                            <div class="more_btn">
+                                <i class="fa-solid fa-plus"></i>
+                                <div class="text">
+                                    <span>View more <br>
+                                        about our services</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide_1 service_box" id="box3">
+                <div class="row">
+                    <div class="col-md-6 d-flex align-items-center justify-content-center p-0">
+                        <div class="left_img" data-aos="flip-left">
+                            <img class="" src="images/home_bg_1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6 p-0">
+                        <div class="text_area">
+                            <div class="top_text">
+                                <h1>Cost-effective and timely large consignment deliveries.</h1>
+                                <p>Timely and seamless deliveries for large consianments.</p>
+                            </div>
+                        </div>
+                        <a href="services.php" style="text-decoration: none; color:#1E1E1E;">
+                            <div class="more_btn">
+                                <i class="fa-solid fa-plus"></i>
+                                <div class="text">
+                                    <span>View more <br>
+                                        about our services</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -142,8 +248,8 @@
             <div class="col-md-4 p-2">
                 <div class="box">
                     <div class="head">
-                        <i class="fa-solid fa-train"></i>
-                        <span>Road Freight</span>
+                    <i class="fa-solid fa-truck"></i>
+                                            <span>Road Freight</span>
                     </div>
                     <div class="des">
                         <p> As a reliable logistics partner, North Super Fast Service Ltd. offers efficient road freight solutions, catering to the demands of the business community for seamless transportation. With a well-maintained self-owned fleet and a dedicated team, we ensure timely departures and arrivals, optimizing capacity utilization for both small parcels and larger consignments. Our express parcel delivery system guarantees swift and secure shipments, providing businesses with the convenience and flexibility they require for their transportation needs.</p>
@@ -154,7 +260,7 @@
             <div class="col-md-4 p-2">
                 <div class="box">
                     <div class="head">
-                        <i class="fa-solid fa-train"></i>
+                    <i class="fa-solid fa-trailer"></i>
                         <span>Full Truckload Services</span>
                     </div>
                     <div class="des">
@@ -176,8 +282,8 @@
                 </div>
             </div>
             <div class="col-md-6 border_1">
-                <div class="img">
-                    <img src="images/mission_bg_1.png" alt="">
+                <div class="img" >
+                    <img id="img" class="slide-image" src="images/mission_bg_1.png" alt="">
                 </div>
             </div>
         </div>
@@ -232,25 +338,25 @@
             <div class="col-md-3">
                 <div class="box">
                     <p>Packages Delivered</p>
-                    <span>7255</span>
+                    <span class="count_num" data-val="7255">0000</span>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="box">
                     <p>Monthly KM Covered</p>
-                    <span>7255</span>
+                    <span class="count_num" data-val="8348">0000</span>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="box">
                     <p>Tons of Goods Transported</p>
-                    <span>7255</span>
+                    <span class="count_num" data-val="8500">0000</span>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="box">
                     <p>Satisfied Clientele</p>
-                    <span>7255</span>
+                    <span class="count_num" data-val="5000">0000</span>
                 </div>
             </div>
         </div>
@@ -266,3 +372,44 @@
 </section>
 <?php require('includes/footer.php') ?>
 <?php require('includes/script.php') ?>
+<script>
+    
+  const myCarousel = document.getElementById("carouselExampleIndicators");
+const carouselIndicators = myCarousel.querySelectorAll(
+  ".carousel-indicators button span"
+);
+let intervalID;
+
+const carousel = new bootstrap.Carousel(myCarousel);
+
+window.addEventListener("load", function () {
+  fillCarouselIndicator(1);
+});
+
+myCarousel.addEventListener("slide.bs.carousel", function (e) {
+  let index = e.to;
+  fillCarouselIndicator(++index);
+});
+
+function fillCarouselIndicator(index) {
+  let i = 0;
+  for (const carouselIndicator of carouselIndicators) {
+    carouselIndicator.style.width = 0;
+  }
+  clearInterval(intervalID);
+  carousel.pause();
+
+  intervalID = setInterval(function () {
+    i++;
+
+    myCarousel.querySelector(".carousel-indicators .active span").style.width =
+      i + "%";
+
+    if (i >= 100) {
+      // i = 0; -> just in case
+      carousel.next();
+    }
+  }, 50);
+}
+
+</script>
