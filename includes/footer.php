@@ -1,7 +1,7 @@
 <footer>
     <div class="container">
         <div class="row">
-            <div class="col-md-3 d-flex align-items-center justify-contact-start flex-column">
+            <div class="col-md-3 d-flex align-items-center justify-content-between flex-column">
                 <div class="img">
                     <a href="./index.php">
                         <img src="./images/logo_2.png" alt="">
