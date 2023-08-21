@@ -2,20 +2,6 @@
 
 <section class="home_top">
     <div class="box">
-        <!-- <div class="home_slider_area text-center owl-carousel owl-theme">
-            <div class="img">
-                <img src="images/home_bg_1.png" alt="">
-            </div>
-            <div class="img">
-                <img src="images/home_bg_2.png" alt="">
-            </div>
-            <div class="img">
-                <img src="images/mission_bg_1.png" alt="">
-            </div>
-            <div class="img">
-                <img src="images/vision_bg_1.png" alt="">
-            </div>
-        </div> -->
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-pause="true">
             <div class="carousel-indicators">
                 <div class="slide_text">
@@ -40,13 +26,13 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="images/home_bg_1.png" class="d-block w-100" alt="...">
+                    <img src="images/home_bg_5.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="images/home_bg_2.png" class="d-block w-100" alt="...">
+                    <img src="images/home_bg_3.png" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="images/mission_bg_1.png" class="d-block w-100" alt="...">
+                    <img src="images/home_bg_4.png" class="d-block w-100" alt="...">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -79,7 +65,7 @@
 </section>
 <section class="home_about">
     <div class="container">
-        <div class="row">
+        <div class="row mx-4">
             <div class="col-md-6 p-0">
                 <div class="text_area">
                     <div class="top_text">
@@ -108,99 +94,101 @@
 </section>
 <section class="home_changer_btns">
     <div class="container">
-        <div class="top_btns">
-            <div class="btns">
-                <div class="button_area click_btn_services active-links" onclick="ontablink(event,'box1')">
-                    <span>Railway Freight</span>
-                    <p></p>
-                </div>
-                <div class="button_area click_btn_services" onclick="ontablink(event,'box2')">
-                    <span>Road Freight</span>
-                    <p></p>
-                </div>
-                <div class="button_area click_btn_services" onclick="ontablink(event, 'box3')">
-                    <span>Full Truckload Services</span>
-                    <p></p>
-                </div>
-            </div>
-        </div>
-        <div class="change_slides">
-            <div class="slide_1 service_box active-tab" id="box1">
-                <div class="row">
-                    <div class="col-md-6 d-flex align-items-center justify-content-center p-0">
-                        <div class="left_img" data-aos="flip-left" data-aos-duration="1500" ata-aos-easing="ease-out-cubic"  >
-                            <img class="" src="images/home_bg_1.png" alt="">
-                        </div>
+        <div class="row mx-4">
+            <div class="top_btns">
+                <div class="btns">
+                    <div class="button_area click_btn_services active-links" onclick="ontablink(event,'box1')">
+                        <span>Railway Freight</span>
+                        <p></p>
                     </div>
-                    <div class="col-md-6 p-0">
-                        <div class="text_area">
-                            <div class="top_text">
-                                <h1>Fast and reliable
-                                    logistic services</h1>
-                                <p>Experience fast and reliable logistic services for seamless transportation solutions.</p>
-                            </div>
-                        </div>
-                        <a href="services.php" style="text-decoration: none; color:#1E1E1E;">
-                            <div class="more_btn">
-                                <i class="fa-solid fa-plus"></i>
-                                <div class="text">
-                                    <span>View more <br>
-                                        about our services</span>
-                                </div>
-                            </div>
-                        </a>
+                    <div class="button_area click_btn_services" onclick="ontablink(event,'box2')">
+                        <span>Road Freight</span>
+                        <p></p>
+                    </div>
+                    <div class="button_area click_btn_services" onclick="ontablink(event, 'box3')">
+                        <span>Full Truckload Services</span>
+                        <p></p>
                     </div>
                 </div>
             </div>
-            <div class="slide_1 service_box " id="box2">
-                <div class="row">
-                    <div class="col-md-6 d-flex align-items-center justify-content-center p-0">
-                        <div class="left_img" data-aos="flip-left"  data-aos-duration="2000" ata-aos-easing="ease-out-cubic"  >
-                            <img class="" src="images/home_bg_1.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-md-6 p-0">
-                        <div class="text_area">
-                            <div class="top_text">
-                                <h1>Efficient and reliable road transportation services.</h1>
-                                <p>Seamless and flexible road transport solutions for your goods.</p>
+            <div class="change_slides">
+                <div class="slide_1 service_box active-tab" id="box1">
+                    <div class="row">
+                        <div class="col-md-6 d-flex align-items-center justify-content-center p-0">
+                            <div class="left_img" data-aos="flip-left" data-aos-duration="1500" ata-aos-easing="ease-out-cubic">
+                                <img class="" src="images/home_bg_1.png" alt="">
                             </div>
                         </div>
-                        <a href="services.php" style="text-decoration: none; color:#1E1E1E;">
-                            <div class="more_btn">
-                                <i class="fa-solid fa-plus"></i>
-                                <div class="text">
-                                    <span>View more <br>
-                                        about our services</span>
+                        <div class="col-md-6 p-0">
+                            <div class="text_area">
+                                <div class="top_text">
+                                    <h1>Fast and reliable
+                                        logistic services</h1>
+                                    <p>Experience fast and reliable logistic services for seamless transportation solutions.</p>
                                 </div>
                             </div>
-                        </a>
+                            <a href="services.php" style="text-decoration: none; color:#1E1E1E;">
+                                <div class="more_btn">
+                                    <i class="fa-solid fa-plus"></i>
+                                    <div class="text">
+                                        <span>View more <br>
+                                            about our services</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="slide_1 service_box" id="box3">
-                <div class="row">
-                    <div class="col-md-6 d-flex align-items-center justify-content-center p-0">
-                        <div class="left_img" data-aos="flip-left">
-                            <img class="" src="images/home_bg_1.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-md-6 p-0">
-                        <div class="text_area">
-                            <div class="top_text">
-                                <h1>Cost-effective and timely large consignment deliveries.</h1>
-                                <p>Timely and seamless deliveries for large consianments.</p>
+                <div class="slide_1 service_box " id="box2">
+                    <div class="row">
+                        <div class="col-md-6 d-flex align-items-center justify-content-center p-0">
+                            <div class="left_img" data-aos="flip-left" data-aos-duration="2000" ata-aos-easing="ease-out-cubic">
+                                <img class="" src="images/home_bg_1.png" alt="">
                             </div>
                         </div>
-                        <a href="services.php" style="text-decoration: none; color:#1E1E1E;">
-                            <div class="more_btn">
-                                <i class="fa-solid fa-plus"></i>
-                                <div class="text">
-                                    <span>View more <br>
-                                        about our services</span>
+                        <div class="col-md-6 p-0">
+                            <div class="text_area">
+                                <div class="top_text">
+                                    <h1>Efficient and reliable road transportation services.</h1>
+                                    <p>Seamless and flexible road transport solutions for your goods.</p>
                                 </div>
                             </div>
-                        </a>
+                            <a href="services.php" style="text-decoration: none; color:#1E1E1E;">
+                                <div class="more_btn">
+                                    <i class="fa-solid fa-plus"></i>
+                                    <div class="text">
+                                        <span>View more <br>
+                                            about our services</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide_1 service_box" id="box3">
+                    <div class="row">
+                        <div class="col-md-6 d-flex align-items-center justify-content-center p-0">
+                            <div class="left_img" data-aos="flip-left">
+                                <img class="" src="images/home_bg_1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-6 p-0">
+                            <div class="text_area">
+                                <div class="top_text">
+                                    <h1>Cost-effective and timely large consignment deliveries.</h1>
+                                    <p>Timely and seamless deliveries for large consianments.</p>
+                                </div>
+                            </div>
+                            <a href="services.php" style="text-decoration: none; color:#1E1E1E;">
+                                <div class="more_btn">
+                                    <i class="fa-solid fa-plus"></i>
+                                    <div class="text">
+                                        <span>View more <br>
+                                            about our services</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -209,22 +197,48 @@
 
 </section>
 <section class="testimonial_home">
-    <div class="container-fluid p-0">
-        <div class="box">
+    <div class="container p-0">
+        <div class="test_slider_area owl-carousel owl-theme">
+            <div class="box ">
+                <img src="images/“.svg" alt="" class="coma py-4">
+                <p>"NSFS made my transportation experience seamless! Their professionalism and punctuality were truly impressive. I highly recommend NSFS to anyone in need of reliable and efficient transportation services."</p>
+                <div class="profile">
 
-            <!-- <i class="fa-solid fa-quote-left"></i> -->
-            <img src="images/“.svg" alt="" class="py-4">
-            <!-- <span>'</span> -->
-
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur omnis nemo nobis, vel, molestiae delectus obcaecati sit tempore quas fugiat, est ex illo atque aspernatur dolorem libero? Exercitationem corrupti repellendus quam dicta! Neque quaerat in perferendis pariatur dolorum tempora laborum.</p>
-            <div class="profile">
-
-                <div class="img">
-                    <img src="images/profile.png" alt="">
+                    <div class="img">
+                        <img src="images/profile_2.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <span>Satisfied Client</span>
+                        <p>Sam Kumar</p>
+                    </div>
                 </div>
-                <div class="text">
-                    <span>Satisfied Client</span>
-                    <p>Sam Kumar</p>
+            </div>
+            <div class="box ">
+                <img src="images/“.svg" alt="" class="coma py-4">
+                <p>"NSFS made my transport experience seamless! Their exceptional service and timely deliveries truly impressed me. Trustworthy and efficient - I highly recommend NSFS!."</p>
+                <div class="profile">
+
+                    <div class="img">
+                    <img src="images/profile_2.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <span>Satisfied Client</span>
+                        <p>jack dube</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box ">
+                <img src="images/“.svg" alt="" class="coma py-4">
+                <p>NSFS has exceeded my expectations as a transport company. Their professionalism, punctuality, and dedication to customer satisfaction are truly commendable. Reliable and efficient, NSFS is my top choice for all transportation needs.</p>
+                <div class="profile">
+
+                    <div class="img">
+                    <img src="images/profile_2.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <span>Satisfied Client</span>
+                        <p>Anay Singh</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -232,7 +246,7 @@
 </section>
 <section class="home_services">
     <div class="container">
-        <div class="row">
+        <div class="row mx-4">
             <div class="col-md-4 p-2">
                 <div class="box">
                     <div class="head">
@@ -248,8 +262,8 @@
             <div class="col-md-4 p-2">
                 <div class="box">
                     <div class="head">
-                    <i class="fa-solid fa-truck"></i>
-                                            <span>Road Freight</span>
+                        <i class="fa-solid fa-truck"></i>
+                        <span>Road Freight</span>
                     </div>
                     <div class="des">
                         <p> As a reliable logistics partner, North Super Fast Service Ltd. offers efficient road freight solutions, catering to the demands of the business community for seamless transportation. With a well-maintained self-owned fleet and a dedicated team, we ensure timely departures and arrivals, optimizing capacity utilization for both small parcels and larger consignments. Our express parcel delivery system guarantees swift and secure shipments, providing businesses with the convenience and flexibility they require for their transportation needs.</p>
@@ -260,7 +274,7 @@
             <div class="col-md-4 p-2">
                 <div class="box">
                     <div class="head">
-                    <i class="fa-solid fa-trailer"></i>
+                        <i class="fa-solid fa-trailer"></i>
                         <span>Full Truckload Services</span>
                     </div>
                     <div class="des">
@@ -274,7 +288,7 @@
 </section>
 <section class="mission_vision">
     <div class="container">
-        <div class="row mission">
+        <div class="row mission mx-4">
             <div class="col-md-6">
                 <div class="text">
                     <h1>Mission</h1>
@@ -282,12 +296,12 @@
                 </div>
             </div>
             <div class="col-md-6 border_1">
-                <div class="img" >
+                <div class="img">
                     <img id="img" class="slide-image" src="images/mission_bg_1.png" alt="">
                 </div>
             </div>
         </div>
-        <div class="row vision">
+        <div class="row vision mx-4">
             <div class="col-md-6 border_1">
                 <div class="img">
                     <img src="images/vision_bg_1.png" alt="">
@@ -301,10 +315,10 @@
             </div>
 
         </div>
-        <div class="row after_m_v">
+        <div class="row after_m_v mx-4">
             <div class="col-md-6">
                 <div class="text">
-                    <h1>We guarantee fast and safe transport for your packages</h1>
+                    <h1>“We guarantee fast and safe transport for your packages„</h1>
                 </div>
             </div>
             <div class="col-md-6">
@@ -312,19 +326,19 @@
                     <div class="col-md-6">
                         <div class="des">
                             <h2>Railway Freight</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur.</p>
+                            <p>NSFS: Streamline your cargo movement with our efficient Railway Freight solutions. Fast, reliable, and cost-effective transportation you can trust.</p>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="des">
                             <h2>Road Freight</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur.</p>
+                            <p>NSFS offers seamless road freight solutions, ensuring timely and secure deliveries across distances. Your cargo, our priority.</p>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="des">
                             <h2>Full Truckload Services</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur.</p>
+                            <p>NSFS offers seamless Full Truckload Services for efficient and cost-effective transportation solutions. Your cargo, our priority.</p>
                         </div>
                     </div>
                 </div>
@@ -334,29 +348,29 @@
 </section>
 <section class="what_done">
     <div class="container-fluid">
-        <div class="row">
+        <div class="row py-5">
             <div class="col-md-3">
                 <div class="box">
-                    <p>Packages Delivered</p>
-                    <span class="count_num" data-val="7255">0000</span>
+                    <p>Packages Delivered (Monthly)</p>
+                    <span class="count_num" data-val="10000">10000+</span>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="box">
-                    <p>Monthly KM Covered</p>
-                    <span class="count_num" data-val="8348">0000</span>
+                    <p>Monthly LKM Covered</p>
+                    <span class="count_num" data-val="8348">3.5 L +</span>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="box">
-                    <p>Tons of Goods Transported</p>
-                    <span class="count_num" data-val="8500">0000</span>
+                    <p>Tons of Goods Transported (Monthly)</p>
+                    <span class="count_num" data-val="2000">2000+</span>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="box">
                     <p>Satisfied Clientele</p>
-                    <span class="count_num" data-val="5000">0000</span>
+                    <span class="count_num" data-val="5000">5000+</span>
                 </div>
             </div>
         </div>
@@ -364,8 +378,8 @@
 
 </section>
 <section>
-    <div class="container">
-        <div class="end_text">
+    <div class="container py-5">
+        <div class="end_text mx-4">
             <h1>Delivering seamless logistics solutions with innovation and expertise, coordinated by a qualified team for efficient and timely delivery.</h1>
         </div>
     </div>
@@ -373,43 +387,41 @@
 <?php require('includes/footer.php') ?>
 <?php require('includes/script.php') ?>
 <script>
-    
-  const myCarousel = document.getElementById("carouselExampleIndicators");
-const carouselIndicators = myCarousel.querySelectorAll(
-  ".carousel-indicators button span"
-);
-let intervalID;
+    const myCarousel = document.getElementById("carouselExampleIndicators");
+    const carouselIndicators = myCarousel.querySelectorAll(
+        ".carousel-indicators button span"
+    );
+    let intervalID;
 
-const carousel = new bootstrap.Carousel(myCarousel);
+    const carousel = new bootstrap.Carousel(myCarousel);
 
-window.addEventListener("load", function () {
-  fillCarouselIndicator(1);
-});
+    window.addEventListener("load", function() {
+        fillCarouselIndicator(1);
+    });
 
-myCarousel.addEventListener("slide.bs.carousel", function (e) {
-  let index = e.to;
-  fillCarouselIndicator(++index);
-});
+    myCarousel.addEventListener("slide.bs.carousel", function(e) {
+        let index = e.to;
+        fillCarouselIndicator(++index);
+    });
 
-function fillCarouselIndicator(index) {
-  let i = 0;
-  for (const carouselIndicator of carouselIndicators) {
-    carouselIndicator.style.width = 0;
-  }
-  clearInterval(intervalID);
-  carousel.pause();
+    function fillCarouselIndicator(index) {
+        let i = 0;
+        for (const carouselIndicator of carouselIndicators) {
+            carouselIndicator.style.width = 0;
+        }
+        clearInterval(intervalID);
+        carousel.pause();
 
-  intervalID = setInterval(function () {
-    i++;
+        intervalID = setInterval(function() {
+            i++;
 
-    myCarousel.querySelector(".carousel-indicators .active span").style.width =
-      i + "%";
+            myCarousel.querySelector(".carousel-indicators .active span").style.width =
+                i + "%";
 
-    if (i >= 100) {
-      // i = 0; -> just in case
-      carousel.next();
+            if (i >= 100) {
+                // i = 0; -> just in case
+                carousel.next();
+            }
+        }, 50);
     }
-  }, 50);
-}
-
 </script>

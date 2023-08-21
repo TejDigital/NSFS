@@ -16,7 +16,7 @@
         <div class="row">
             <div class="col-md-6 p-0 border_right">
                 <div class="img">
-                    <img src="images/mission_bg_1.png" alt="">
+                    <img src="images/services_hero.png" alt="">
                 </div>
             </div>
             <div class="col-md-6 p-0">
@@ -48,7 +48,7 @@
                         <h1>Railway Freight</h1>
                     </div>
                     <div class="img" data-aos="fade-up-right" data-aos-duration="1000">
-                        <img src="images/mission_bg_1.png" alt="">
+                        <img src="images/service_railway.png" alt="">
                     </div>
                 </div>
             </div>
@@ -69,7 +69,7 @@
                         <h1>Road Freight</h1>
                     </div>
                     <div class="img" data-aos="fade-up-right" data-aos-duration="1000">
-                        <img src="images/mission_bg_1.png" alt="">
+                        <img src="images/services_road.png" alt="">
                     </div>
                 </div>
             </div>
@@ -90,7 +90,7 @@
                         <h1>Full Truckload Services (FTL)</h1>
                     </div>
                     <div class="img" data-aos="fade-up-right" data-aos-duration="1000">
-                        <img src="images/mission_bg_1.png" alt="">
+                        <img src="images/service_full_road.png" alt="">
                     </div>
                 </div>
             </div>

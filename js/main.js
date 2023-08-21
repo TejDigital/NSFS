@@ -2,12 +2,18 @@ $(function () {
     var navbar = $(".header-inner");
     var logo_1 = $(".logo_1");
     var logo_2 = $(".logo_2");
+    var togel1 = $(".toggel_btn1");
+    var togel2 = $(".toggel_btn2");
     $(window).scroll(function () {
       if ($(window).scrollTop() <= 40) {
+        togel1.css("display", "block");
+        togel2.css("display", "none");
         logo_1.css("display","block");
         logo_2.css("display","none");
         navbar.removeClass("navbar-scroll");
       } else {
+        togel1.css("display", "none");
+        togel2.css("display", "block");
         logo_1.css("display","none");
         logo_2.css("display","block");
         navbar.addClass("navbar-scroll");
@@ -22,6 +28,11 @@ for (let i = 0; i < menuitems.length; i++) {
   if (menuitems[i].href === currentlink) {
     menuitems[i].className = "current";
   }
+}
+
+//-------------------------location------------
+function myloc(){
+  location.href = "https://goo.gl/maps/uawm5iDvRQqFb2jP7";
 }
 
 
@@ -45,6 +56,40 @@ for (let i = 0; i < menuitems.length; i++) {
     ],
     margin: 10,
     dots: true,
+    dotsEach: true,
+    responsive: {
+      320: {
+        items: 1,
+      },
+      767: {
+        items: 1,
+      },
+      600: {
+        items: 1,
+      },
+      1000: {
+        items: 1,
+      },
+    },
+  });
+
+  $(".test_slider_area").owlCarousel({
+    autoplay: true,
+    slideSpeed: 3000,
+    autoplayTimeout: 3000,
+    autoplayHoverPause: true,
+    paginationSpeed: 1000,
+    items: 1,
+    loop: true,
+    mouseDrag: true,
+    nav: false,
+    center:true,
+    navText: [
+      '<i class="fa-solid fa-angle-left"></i>',
+      '<i class="fa-solid fa-angle-right"></i>',
+    ],
+    margin: 10,
+    dots: false,
     dotsEach: true,
     responsive: {
       320: {
@@ -135,23 +180,23 @@ for (let i = 0; i < menuitems.length; i++) {
 
 // ---------------------------home-count-function-------------
 
-let num_count = document.querySelectorAll('.count_num');
-let interval = 50;
+// let num_count = document.querySelectorAll('.count_num');
+// let interval = 1;
 
-num_count.forEach((num_counter)=>{
-    let start_num = 1;
-    let end_num = parseInt(num_counter.getAttribute("data-val"));
-    // console.log(end_num);
-    let time_duration = Math.floor(interval/end_num);
-    let set_counter = setInterval(function(){
-        start_num += 1;
-        // console.log(start_num);
-        num_counter.textContent = start_num;
-        if(start_num == end_num){
-            clearInterval(set_counter);
-        }
-    } ,time_duration);
-});
+// num_count.forEach((num_counter)=>{
+//     let start_num = 1;
+//     let end_num = parseInt(num_counter.getAttribute("data-val"));
+//     // console.log(end_num);
+//     let time_duration = Math.floor(interval/end_num);
+//     let set_counter = setInterval(function(){
+//         start_num += 1;
+//         // console.log(start_num);
+//         num_counter.textContent = start_num;
+//         if(start_num == end_num){
+//             clearInterval(set_counter);
+//         }
+//     } ,1);
+// });
 
 
 

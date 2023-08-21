@@ -30,7 +30,7 @@
             </div>
             <div class="col-md-6  d-flex align-items-center justify-content-center">
                 <div class="img">
-                    <img src="images/about_home_bg_1.png" alt="">
+                    <img src="images/about_home_bg_2.png" alt="">
                 </div>
             </div>
         </div>
@@ -162,26 +162,26 @@
     <div class="row">
         <div class="col-md-3">
             <div class="box">
-                <p>Packages Delivered</p>
-                <span class="count_num" data-val="7255">0000</span>
+                <p>Packages Delivered (Monthly)</p>
+                <span class="count_num" data-val="10000">10000+</span>
             </div>
         </div>
         <div class="col-md-3">
             <div class="box">
                 <p>Monthly KM Covered</p>
-                <span class="count_num" data-val="8348">0000</span>
+                <span class="count_num" data-val="8348">3.5 L+</span>
             </div>
         </div>
         <div class="col-md-3">
             <div class="box">
-                <p>Tons of Goods Transported</p>
-                <span class="count_num" data-val="8500">0000</span>
+                <p>Tons of Goods Transported (Monthly)</p>
+                <span class="count_num" data-val="2000">2000+</span>
             </div>
         </div>
         <div class="col-md-3">
             <div class="box">
                 <p>Satisfied Clientele</p>
-                <span class="count_num" data-val="5000">0000</span>
+                <span class="count_num" data-val="5000">5000+</span>
             </div>
         </div>
     </div>

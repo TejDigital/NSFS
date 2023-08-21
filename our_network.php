@@ -12,7 +12,7 @@
 </section>
 <section class="contact_2">
     <div class="container">
-        <div class="row">
+    <div class="row">
             <div class="col-md-4 p-1">
                 <div class="box">
                     <div class="head">
@@ -20,25 +20,25 @@
                         </span>
                         <h1>Railway Flight</h1>
                     </div>
-                    <p>Seamlessly connect businesses with our efficient railway freight service, facilitating cost-effective and reliable cargo movement across the nation.</p>
+                    <p>NSFS offers seamless railway freight solutions, ensuring swift and cost-effective transportation of goods. With a strong network and streamlined processes, NSFS guarantees timely deliveries, making them a trusted choice for efficient rail freight services</p>
                 </div>
             </div>
             <div class="col-md-4 p-1">
                 <div class="box">
                     <div class="head">
                         <span><i class="fa-solid fa-train"></i></span>
-                        <h1>Railway Flight</h1>
+                        <h1>Road Freight</h1>
                     </div>
-                    <p>Seamlessly connect businesses with our efficient railway freight service, facilitating cost-effective and reliable cargo movement across the nation.</p>
+                    <p>NSFS offers top-notch Road Freight solutions, delivering reliability and efficiency. With a focus on timely deliveries and secure transport, they are the go-to choice for all your road transportation needs.</p>
                 </div>
             </div>
             <div class="col-md-4 p-1">
                 <div class="box">
                     <div class="head">
                         <span><i class="fa-solid fa-train"></i></span>
-                        <h1>Railway Flight</h1>
+                        <h1>Full Truckload Services</h1>
                     </div>
-                    <p>Seamlessly connect businesses with our efficient railway freight service, facilitating cost-effective and reliable cargo movement across the nation.</p>
+                    <p>NSFS provides comprehensive Full Truckload Services, catering to all your shipment needs. With a focus on reliability and security, they offer efficient transport solutions for large consignments. Choose NSFS for seamless, end-to-end full truckload services.</p>
                 </div>
             </div>
         </div>

@@ -1,11 +1,16 @@
 <footer>
     <div class="container">
         <div class="row">
-            <div class="col-md-3 d-flex align-items-center justify-contact-center">
+            <div class="col-md-3 d-flex align-items-center justify-contact-start flex-column">
                 <div class="img">
                     <a href="./index.php">
-                        <img src="./images/logo_1.svg" alt="">
+                        <img src="./images/logo_2.png" alt="">
                     </a>
+                </div>
+                <div class="address">
+                 <!-- <h4>Contact</h4> -->
+                 <p><a href="tel:+917024106657"><span><i class="fa-solid fa-phone"></i></span>91-702-4106-657</a></p>
+               <p onclick="myloc()" style="cursor: pointer;"><span><i class="fa-solid fa-location-dot"></i></span>Shop no.3 Smriti Nagar Bhilai ,durg CG(453572) </p>
                 </div>
             </div>
             <div class="col-md-3 nav_links">
@@ -89,7 +94,7 @@
           <div class="mobile-menu fix mt-40"></div>
           <div class="offcanvas__about d-none d-lg-block mt-30 mb-30">
              <h4>About us</h4>
-             <p>North Superfast Service Ltd.: 59+ years logistics leader since 1979, offering reliable, nationwide solutions. Customer-focused, safe, and innovative, we drive growth in dynamic logistics.</p>
+             <p>North Superfast Service Ltd.: 59+ years logistics leader since 1979, offering reliable, nationwide solutions. Customer-focused, safe, and innovative, we drive growth in dynamic logistics. <a href="./about.php">Read more</a></p>
           </div>
           <div class="offcanvas__contact mt-30 mb-30">
              <h4>Contact Info</h4>
@@ -110,7 +115,7 @@
                       <a href="tel:7024106657"><i class="fa-solid fa-phone"></i></a>
                    </div>
                    <div class="offcanvas__contact-text">
-                      <a href="tel:7024106657">+91-702-4106-657,</a><a href="tel:07714016657">+91-771-4016-657</a>
+                      <a href="tel:7024106657">+91-702-4106-657</a> <br><a href="tel:07714016657">+91-771-4016-657</a>
                    </div>
                 </li>
                 <li class="d-flex align-items-center gap-2">
@@ -118,8 +123,8 @@
                       <a href="mailto:NSFS.DURG@GMAIL.COM"><i class="fa-regular fa-envelope"></i></a>
                    </div>
                    <div class="offcanvas__contact-text ">
-                      <a href="mailto:INFO@NSFS.CO.IN">INFO@NSFS.CO.IN</a>
-                      <a href="mailto:NSFS.DURG@GMAIL.COM">NSFS.DURG@GMAIL.COM</a>
+                      <a href="mailto:INFO@NSFS.CO.IN">info@nsfs.co.in</a>
+                      <a href="mailto:NSFS.DURG@GMAIL.COM">nsfs.durg@gmsil.com</a>
 
                    </div>
                    <!-- <div class="offcanvas__contact-text ms-5">
