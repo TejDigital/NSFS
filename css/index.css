@@ -17,7 +17,7 @@
     width: 100%;
     /* max-height: 630px;
     min-height: 300px;
-    ; */
+    height: 100%; */
     position: relative;
 }
 
@@ -25,7 +25,7 @@
     width: 100%;
     /* max-height: 630px;
     min-height: 300px;
-    ; */
+    height: 100%; */
 }
 
 
@@ -42,12 +42,12 @@
     width: 100%;
     /* max-height: 600px ;
     min-height: 400px ;
-    ; */
+    height: 100%; */
 }
 .home_top .carousel-item img{
     width: 100%;
-    /* min-height: 400px ;
-    ; */
+    min-height: 400px ;
+    height: 100%;
 }
 .carousel-control-next, .carousel-control-prev {
     width: 5%;
@@ -87,7 +87,7 @@
     top: 0;
     left: 0;
     width: 0;
-    ;
+    height: 100%;
     background: #07B100;
     border-radius: inherit;
   }
@@ -156,7 +156,7 @@
     max-height: 300px;
     margin-right: 3rem;
     min-height: 150px;
-    /* ; */
+    height: 100%;
 }
 
 .home_top .box .text .des_text h2 {
@@ -246,13 +246,13 @@
 
     padding: 1rem;
     width: 100%;
-    ;
+    height: 100%;
 }
 
 .home_about .right_img img {
     padding: 1rem;
     width: 100%;
-    ;
+    height: 100%;
 }
 
 /* ---------------------------------home_changer_btns------------------- */
@@ -339,14 +339,14 @@
     position: relative;
     padding: 1rem;
     width: 100%;
-    ;
+    height: 100%;
 }
 
 .home_changer_btns .change_slides .slide_1 .left_img img {
     position: relative;
     /* padding: 1rem; */
     width: 100%;
-    ;
+    height: 100%;
 }
 
 .home_changer_btns .change_slides .slide_1 .text_area {
@@ -423,7 +423,7 @@
 .testimonial_home .box .coma{
  max-width: 60px;
  width: 100%;
- ;
+ height: 100%;
 }
 
 .testimonial_home .box i {
@@ -455,7 +455,7 @@
     max-width: 75px;
     width: 100%;
     margin-right: 1rem;
-    ;
+    height: 100%;
     border-radius: 50%;
     
 }
@@ -464,7 +464,7 @@
     border-radius: 50%;
     /* max-width: 90px; */
     width: 100%;
-    ;
+    height: 100%;
 }
 
 .testimonial_home .box .profile .text span {
@@ -543,7 +543,7 @@
 
 .mission_vision .img {
     width: 100%;
-    /* ; */
+    /* height: 100%; */
     overflow: hidden;
     position: relative;
     padding: 1rem;
@@ -551,7 +551,7 @@
 
 .mission_vision .img img {
     width: 100%;
-    ;
+    height: 100%;
 }
 
 
@@ -568,7 +568,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    ;
+    height: 100%;
     transition: 1s ease-in ;
 }
 .show_animation  .img::after{
@@ -586,7 +586,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    ;
+    height: 100%;
     transition: 1s ease-in 1s;
 }
 .show_animation  .img::after{
