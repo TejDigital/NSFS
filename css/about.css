@@ -236,6 +236,9 @@
     text-align: justify;
     line-height: 28px;
 }
+.link_page .text p span{
+  font-weight: 600;
+}
 .link_page .text .btn_link{
     position: relative;
 }

@@ -261,7 +261,7 @@
                     <h1>Our Partner Company</h1>
                     <p>Discover a valuable partnership with <span> Aleena Tradelink Impex</span>, a distinguished expert in premium dry fruits, grains, spices, and fresh fruits. Our decades-long industry experience and unwavering commitment to quality align seamlessly with your company's ethos, offering an opportunity to enhance your product range. By teaming up with us, you'll access meticulously sourced, quality-assured products that cater to diverse tastes, bolstering your reputation as a provider of exceptional culinary experiences.</p>
                     <div class="btn_link">
-                        <a href="#!">Know More <span><i class="fa-solid fa-arrow-right"></i></span></a>
+                        <a href="https://aleenaimpex.com">Know More <span><i class="fa-solid fa-arrow-right"></i></span></a>
                     </div>
                 </div>
             </div>
