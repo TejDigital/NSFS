@@ -8,16 +8,16 @@
 
 .contact_home .img {
     position: relative;
-    max-height: 630px;
+    /* max-height: 630px; */
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
 }
 
 .contact_home .img img {
-    max-height: 630px;
-min-height: 300px;
+    /* max-height: 630px;
+min-height: 300px; */
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
 }
 
 .contact_home .text {
