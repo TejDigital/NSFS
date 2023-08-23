@@ -24,8 +24,8 @@
                         <div class="form-group">
                             <select name="" id="" class="form-cont">
                                 <option value="" >Search By</option>
-                                <option value="" >Search By</option>
-                                <option value="" >Search By</option>
+                                <option value="" >Docket No</option>
+                                <option value="" >Manual Enter</option>
                             </select>
                         </div>
                         <div class="form-group">
